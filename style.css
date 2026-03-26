@@ -15,11 +15,16 @@ img{
 
 button{
     display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: white;
+    /* margin: 0 auto; */
+    margin-left: 25%;
+    margin-right: 25%;
+    /* margin-top: 0px; */
+    padding: 40px 100px;
+    width: 50%;
+    height: auto;
+    font-size: 36px;
+    /* background-color: white; */
+    background: linear-gradient(to right, rgb(255, 29, 240), rgb(9, 98, 251));
     color: black;
     border: none;
     border-radius: 5px;
@@ -27,7 +32,7 @@ button{
 }
 
 button:hover{
-    background-color: grey;
+    background-color: rgb(0, 8, 1);
     color: white;
 }
 
